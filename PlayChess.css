@@ -11,6 +11,7 @@ html {
 #MyNavigationBar a {
   color: rgb(93, 93, 245);
 }
+
 /* - */
 
 /* Styling of About Me section */
@@ -19,23 +20,10 @@ html {
   border-top: 1px solid black;
   background-color: rgb(138, 138, 235);
 }
+
 /* - */
 
-/* Styling main content i.e. How To Play section and chess board */
-#ScrollableContainer > div:nth-child(n) {
-  background-color: rgb(138, 138, 235);
-}
-
-#MainContent > div[class="container-fluid mt-4 mb-5 p-4"] {
-  border-right: 2px solid rgb(138, 138, 235);
-  border-bottom: 2px solid rgb(138, 138, 235);
-}
-
-#MainContent div[class=col-8] {
-  border-top: 2px dotted rgb(138, 138, 235);
-  border-left: 2px dotted rgb(138, 138, 235);
-}
-
+/* Styling main content i.e. How To Play chess board */
 #MainContent .active {
   background-color: rgb(138, 138, 235);
 }
@@ -49,13 +37,14 @@ html {
   flex-wrap: wrap;
 }
 
-#ChessBoard > div > div {
+#ChessBoard>div>div {
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 /* - */
 
 /* Making and styling classes for JS to work with it */
@@ -65,6 +54,7 @@ html {
   height: 60px;
   position: relative;
 }
+
 /* - */
 
 /* Inside each occupied squares we have chess pieces */
@@ -73,6 +63,7 @@ html {
   position: absolute;
   z-index: 20;
 }
+
 /* - */
 
 
@@ -93,6 +84,7 @@ html {
 .white {
   background-color: white;
 }
+
 /* - */
 
 /* Styling for footer content */
@@ -112,6 +104,7 @@ html {
   text-decoration-thickness: 0.25px !important;
   text-decoration-color: black !important;
 }
+
 /* - */
 
 /* To change default sizes of displays */
@@ -138,4 +131,5 @@ html {
 .display-6 {
   font-size: 1.25rem;
 }
+
 /* - */
